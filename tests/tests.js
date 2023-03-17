@@ -8,7 +8,7 @@ const testCase = async () => {
 
   await driver.findElement(By.name("q")).sendKeys("Hello, world", Key.RETURN);
 
-  setInterval(() => driver.quit(), 10000);
+  setInterval(() => driver.quit(), 9000);
 };
 
 testCase();
